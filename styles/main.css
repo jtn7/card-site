@@ -1,0 +1,78 @@
+html {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3B3F4A;
+	background-color: #ebebeb;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.card {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 50% 40%;
+	justify-content: space-between;
+	border-radius: 30px;
+	width: 35%;
+	min-width: 35rem;
+	margin: auto;
+	margin-top: 10%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: 3rem;
+}
+
+.card .profile-pic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 14rem;
+	height: 14rem;
+	border-radius: 50%;
+	background-color: rgb(111, 186, 220);
+}
+
+.card .profile-pic img {
+	width: 13rem;
+	border-radius: 50%;
+}
+
+.card .name-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	font-size: 2rem;
+}
+
+.card .name-section .name {
+	margin-top: 1rem;
+}
+
+.card .role {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #6b6b6b;
+}
+
+.card .link-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+	line-height: 1.5;
+	gap: 1rem;
+}
+
+.card .link-section .github img {
+	width: 7rem;
+}
+
+.card .link-section .linkedin img {
+	width: 11rem;
+}
